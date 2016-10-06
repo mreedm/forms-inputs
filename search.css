@@ -1,0 +1,52 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    width:75%;
+    margin: auto;
+    background-color: azure;
+    border: 1px darkgray solid;
+    padding: 0 2em 2em 2em;
+}
+
+
+
+input[type="text"], select {
+    width: 50%;
+    margin: 1em 0 1em 0;
+    padding: 1em;
+    display: block;
+    border-radius: 0.5em;
+    border: 1px darkgreen solid;
+}
+
+select {
+    font-size: 1em;
+}
+
+input[type="text"]:focus {
+    background-color: lightgreen;
+
+}
+
+button[type="button"] {
+    width: 20%;
+    margin: 1em 0 0 0;
+    padding: 1em;
+    background-color: forestgreen;
+    border-radius: 0.5em;
+    border: 3px darkgreen solid;
+    color: white;
+    font-size: 1em;
+    display: block;
+}
+
+button[type="button"]:hover {
+    text-decoration: underline;
+}
+
+button[type="button"]:active {
+    background-color: white;
+    color: darkgreen;
+}
