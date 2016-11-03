@@ -1,0 +1,26 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    width:75%;
+    margin: auto;
+    background-color: azure;
+    border: 1px darkgray solid;
+    padding: 0 2em 2em 2em;
+}
+
+.text-field {
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+}
+
+.feelings {
+    display: block;
+    padding-bottom: 1.2em;
+    font-weight: bold;
+}
+
+label {
+    padding-right: 2em;
+}

@@ -2,9 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="questionnaire.css">
+    <title>Questionnaire</title>
 </head>
 <body>
+<div class="container">
+    <h1>Share some information!</h1>
+
+    <form action="example.php" method="post">
+        <div class="radio-buttons">
+            <span class="feelings">How are you feeling?</span>
+            <input type="radio" name="feelings" id="ecstatic" value="e" />
+            <label for="ecstatic">Ecstatic</label>
+            <input type="radio" name="feelings" id="happy" value="h" />
+            <label for="happy">Happy</label>
+            <input type="radio" name="feelings" id="ok" value="ok" />
+            <label for="ok">OK</label>
+            <input type="radio" name="feelings" id="sad" value="s" />
+            <label for="sad">Sad</label>
+            <input type="radio" name="feelings" id="depressed" value="d" />
+            <label for="depressed">Depressed</label>
+            <input type="radio" name="feelings" id="other" value="Other" />
+            <label for="other">Other</label>
+        </div>
+
+        <div class="text-field">
+            <label for="explain" class="explain">If other, please explain:</label>
+            <input type="text" id="explain" name="explain" />
+        </div>
+
+        <div class="submit">
+            <input type="submit" value="Submit" id="submit" />
+        </div>
+    </form>
+
+
+
+
+
+
+</div>
 
 </body>
 </html>
