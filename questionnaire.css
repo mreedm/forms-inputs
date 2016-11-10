@@ -24,3 +24,30 @@ body {
 label {
     padding-right: 2em;
 }
+
+input[type="text"]:focus {
+    background-color: lightgreen;
+
+}
+
+input#submit {
+    width: 20%;
+    margin: 1em 0 0 0;
+    padding: 0.5em;
+    background-color: forestgreen;
+    border-radius: 0.5em;
+    border: 3px darkgreen solid;
+    color: white;
+    font-size: 1em;
+    display: block;
+}
+
+input#submit:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+input#submit:active {
+    background-color: white;
+    color: darkgreen;
+}

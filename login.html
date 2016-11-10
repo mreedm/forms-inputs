@@ -2,9 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <title>Questionnaire</title>
 </head>
 <body>
+<form action="action_page.php">
+    <div class="container">
+        <h1>Log in to our website!</h1>
+    </div>
+
+    <div class="container">
+        <label><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit">Login</button>
+        <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div class="container password">
+        <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+</form>
 
 </body>
 </html>
